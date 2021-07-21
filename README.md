@@ -1,7 +1,7 @@
 ember-wo-push-updates
 ==============================================================================
 
-[Short description of the addon.]
+This addon will provide the necessary functions to interact with push updates.
 
 
 Compatibility
@@ -23,16 +23,6 @@ ember install ember-wo-push-updates
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+Only one function is provided, `addPollCallbackFunction`.
+This function will register a callback to happen wwhen a push update is received, the callback will be given 3 arguments: the data, type and realm of the push received update.
 
-
-Contributing
-------------------------------------------------------------------------------
-
-See the [Contributing](CONTRIBUTING.md) guide for details.
-
-
-License
-------------------------------------------------------------------------------
-
-This project is licensed under the [MIT License](LICENSE.md).
