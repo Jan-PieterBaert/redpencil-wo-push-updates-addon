@@ -2,6 +2,7 @@ ember-wo-push-updates
 ==============================================================================
 
 This addon will provide the necessary functions to interact with push updates.
+This addon will also provide a tab-id which is stored in `window.identifier`
 
 
 Compatibility
@@ -12,17 +13,18 @@ Compatibility
 * Node.js v10 or above
 
 
-Installation
-------------------------------------------------------------------------------
-
-```
-ember install ember-wo-push-updates
-```
+<!-- Not yet published -->
+<!-- Installation -->
+<!-- ------------------------------------------------------------------------------ -->
+<!--  -->
+<!-- ``` -->
+<!-- ember install ember-wo-push-updates -->
+<!-- ``` -->
 
 
 Usage
 ------------------------------------------------------------------------------
 
 Only one function is provided, `addPollCallbackFunction`.
-This function will register a callback to happen wwhen a push update is received, the callback will be given 3 arguments: the data, type and realm of the push received update.
+This function will register a callback to happen when a push update is received, the callback will be given 3 arguments: the data, type and realm of the push received update.
 
