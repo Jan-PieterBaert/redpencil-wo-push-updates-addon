@@ -4,6 +4,9 @@ ember-wo-push-updates
 This addon will provide the necessary functions to interact with push updates.
 This addon will also provide a tab-id which is stored in `window.identifier`
 
+See [frontend-mu-push-poc-chat](https://github.com/redpencilio/frontend-mu-push-poc-chat) for an example of how this addon is used.
+The application is part of [app-mu-push-poc](https://github.com/redpencilio/app-mu-push-poc).
+
 
 Compatibility
 ------------------------------------------------------------------------------
@@ -13,13 +16,13 @@ Compatibility
 * Node.js v10 or above
 
 
-<!-- Not yet published -->
-<!-- Installation -->
-<!-- ------------------------------------------------------------------------------ -->
-<!--  -->
-<!-- ``` -->
-<!-- ember install ember-wo-push-updates -->
-<!-- ``` -->
+Not yet published
+Installation
+------------------------------------------------------------------------------
+
+```
+ember install ember-wo-push-updates
+```
 
 
 Usage
